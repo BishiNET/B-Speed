@@ -21,3 +21,17 @@ Here is the B-Speed Core desgin.
       Unlock /              | Core  |  ---------------------> |  Core   |             | Web console     |
       Speedtest             |-------|     HTTP Proxy Callback |---------|             |-----------------|
 ```
+
+## B-Speed Stream Unlock Test Desgin
+
+B-Speed is new project, however, the current stream unlock testing scripts aren't new.
+
+We don't want to write theses codes repeatedly, which is meaningless.
+
+Also, we don't want to create a new "Environment" about B-Speed, which is also meaningless, because B-Speed is just a tool, not a system.
+
+So, we aim to make our core forward compatible with those scripts.
+
+B-Speed acts like Clash For Windows, it will set up the system proxy before stream lock tests.
+
+Therefore, any the traffic of stream lock testing scripts will be proxyed via Clash core, and then via the proxy.
