@@ -36,4 +36,4 @@ B-Speed acts like Clash For Windows, it will set up the system proxy before stre
 
 Therefore, the traffic of all the stream lock testing scripts will be proxyed via Clash core, and then via the proxy.
 
-The only task of B-Speed stream lock testing part is fetching the result of theses scripts, we are going to generate a "callback" script to help the B-Speed core to grab the result.
+The only task of B-Speed stream lock testing part is fetching the result of theses scripts, we are going to generate a "callback" script to help the B-Speed core to grab the result. **There is no necessity rewriting those scripts and we will NOT remake all of them again.**
