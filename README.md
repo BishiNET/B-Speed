@@ -34,4 +34,4 @@ So, we aim to make our core **forward compatible** with those scripts.
 
 B-Speed acts like Clash For Windows, it will set up the system proxy before stream lock tests.
 
-Therefore, any the traffic of stream lock testing scripts will be proxyed via Clash core, and then via the proxy.
+Therefore, the traffic of all the stream lock testing scripts will be proxyed via Clash core, and then via the proxy.
